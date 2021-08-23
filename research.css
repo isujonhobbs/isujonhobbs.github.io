@@ -1,0 +1,151 @@
+body {
+    font-family: "Arial Unicode MS", "Lucida Grande", hirakakupro-w3, osaka, "ms pgothic", sans-serif;    
+}
+p {
+    text-align: left;
+}
+h1 {
+    font-weight: bold;
+    font-size: 1.5em;
+    text-align: center;
+}
+h2 {
+    font-weight: bold;
+    font-size: 1.2em;
+    text-align: left;
+}
+h6 {
+    page-break-before: always;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+.hcent {
+    text-align: center;
+}
+pre {
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+table {
+    border: 0px;
+    padding: 0px;
+    border-spacing: 0px;
+}
+td.addb {
+    border-width: 1px;
+    border-color: #000000;
+    border-style: solid;
+}
+td.addbbl {
+    border-width: 1px;
+    border-color: #000000;
+    border-style: solid;
+    color: #3968ff;
+}
+td.addbrd {
+    border-width: 1px;
+    border-color: #000000;
+    border-style: solid;
+    color: #d83b0d;
+}
+td.redcell {
+    color: #ff0000;
+}
+td.greencell {
+    color: #008800;
+}
+td.bluecell {
+    color: #0066ff;
+}
+th {
+    font-weight: bold;
+    text-decoration: underline;
+    text-align: left;
+}
+
+.ljust {
+    margin-left: 0;
+    margin-right: auto;
+    text-align: center;
+}
+ul.news {
+    list-style-type: none;
+    padding-left: 0px;
+    text-align: left;
+}
+ul.news li {
+    margin-left: 0px;
+    margin-bottom: 20px;
+}
+.lsmall {
+  margin-top: 0px;
+  margin-left: 0px;
+  margin-right: auto;
+  margin-bottom: 20px;
+  text-align: left;
+  font-size: 0.83em;
+}
+.csmall {
+  margin-top: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  text-align: left;
+  font-size: 0.83em;
+}
+td.borderlt {
+  border-width: 1px 0px 0px 1px;
+  border-color: #000000;
+  border-style: solid;
+}
+td.borderl {
+  border-width: 0px 0px 0px 1px;
+  border-color: #000000;
+  border-style: solid;
+}
+td.borderlb {
+  border-width: 0px 0px 1px 1px;
+  border-color: #000000;
+  border-style: solid;
+}
+td.borderltb {
+  border-width: 1px 0px 1px 1px;
+  border-color: #000000;
+  border-style: solid;
+}
+td.borderrt {
+  border-width: 1px 1px 0px 0px;
+  border-color: #000000;
+  border-style: solid;
+}
+td.borderr {
+  border-width: 0px 1px 0px 0px;
+  border-color: #000000;
+  border-style: solid;
+}
+td.borderrb {
+  border-width: 0px 1px 1px 0px;
+  border-color: #000000;
+  border-style: solid;
+}
+td.borderrtb {
+  border-width: 1px 1px 1px 0px;
+  border-color: #000000;
+  border-style: solid;
+}
+img[alt=wid80] {
+  width: 80%;
+}
+img[alt=wid400] {
+  width: 400px;
+}
+img[alt=wid500] {
+  width: 500px;
+}
+img[alt=wid1000] {
+  width: 1000px;
+}
+
+@media print {
+    body {font-size: 0.83em;}
+}
